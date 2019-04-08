@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "js-compile-plugins": "babel --presets env js/src/ --out-dir js/dist/"
+    "js-compile-plugins": "babel --presets env js/src/ --out-dir js/dist/",
+    "start": "gulp mdb-go"
   },
   "repository": "https://github.com/Artemist-tech/uncorked.git",
   "author": "Artemist",
