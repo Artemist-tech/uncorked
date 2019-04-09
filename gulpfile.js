@@ -76,6 +76,7 @@ gulp.task('live-server', () => {
   browserSync.init({
     server: {
       baseDir: './dist'
+      // enable to launch browser into a directory rather than home page
       // directory: true
     },
     notify: false
