@@ -15,6 +15,20 @@ const wineGroups = [
     uncommon: ['albarino', 'white grenache']
   },
   {
+    colour: 'rose',
+    common: [
+      'grenache',
+      'cinsault',
+      'mourvedre',
+      'syrah',
+      'pinot noir',
+      'carignan',
+      'gamay',
+      'malbec'
+    ],
+    uncommon: ['tempranillio', 'graciano']
+  },
+  {
     colour: 'red',
     common: [
       'pinot noir',
@@ -27,7 +41,9 @@ const wineGroups = [
       'zinfandel / primitivo',
       'tempranillo',
       'sangiovese',
-      'nebbiolo'
+      'nebbiolo',
+      'shiraz / syrah',
+      'cabernet sauvignon'
     ],
     uncommon: ['carmenere', 'petit verdot']
   }

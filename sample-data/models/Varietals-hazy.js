@@ -1,3 +1,4 @@
+/* eslint-disable */
 import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
@@ -18,6 +19,7 @@ const VarietalSchema = new Schema({
     type: {
       fruit: String,
       oak: String,
+      age: String,
       savoury: String,
       other: String
     }
