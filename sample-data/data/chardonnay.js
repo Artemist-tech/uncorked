@@ -11,7 +11,7 @@ const chardonnay = {
       'brilliant',
       'bright',
       'intense',
-      'conecntrated'
+      'concentrated'
     ],
     colour: ['yellow', 'green-tinted yellow', 'gold', 'honey', 'pale yellow', 'straw']
   },

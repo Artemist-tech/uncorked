@@ -27,8 +27,8 @@ const CharacterSchema = new Schema({
   savoury: {
     type: {
       earthy: String,
-      savoury: String,
-      nutty: String
+      umami: String,
+      nut: String
     }
   }
 });
