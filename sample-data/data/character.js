@@ -144,3 +144,5 @@ const Characteristics = {
     ]
   }
 };
+
+export default Characteristics;
