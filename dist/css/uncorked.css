@@ -1,0 +1,20 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+body {
+  background-color: #faaca8;
+  background-image: -webkit-linear-gradient(103deg, #faaca8 0%, #ddd6f3 69%, #faf9ec 100%);
+  background-image: -o-linear-gradient(103deg, #faaca8 0%, #ddd6f3 69%, #faf9ec 100%);
+  background-image: linear-gradient(-13deg, #faaca8 0%, #ddd6f3 69%, #faf9ec 100%); }
+
+.btn-grad {
+  background-image: -webkit-gradient(linear, left top, right top, from(#e52d27), color-stop(51%, #b31217), to(#e52d27));
+  background-image: -webkit-linear-gradient(left, #e52d27 0%, #b31217 51%, #e52d27 100%);
+  background-image: -o-linear-gradient(left, #e52d27 0%, #b31217 51%, #e52d27 100%);
+  background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%); }
+
+.btn-grad:hover {
+  background-position: right center; }
