@@ -1,6 +1,9 @@
 #CHOOSE-ID {
   display: none; }
 
+.invisible {
+  display: none; }
+
 body,
 html {
   height: 100%;
@@ -28,7 +31,8 @@ body {
   height: 130px !important;
   margin: 20px 0; }
 
-.wine-varietal {
+.white-wine-varietal,
+.red-wine-varietal {
   width: 160px !important;
   height: 65px !important;
   margin: 10px 0;
