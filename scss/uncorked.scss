@@ -1,3 +1,8 @@
+// HELPER CSS
+#CHOOSE-ID {
+  display: none;
+}
+
 body,
 html {
   height: 100%;
@@ -8,6 +13,7 @@ html {
 body {
   background-color: #faaca8;
   background-image: linear-gradient(-13deg, #faaca8 0%, #ddd6f3 69%, #faf9ec 100%);
+  background-attachment: fixed;
 }
 
 .btn-grad {
@@ -22,6 +28,13 @@ body {
   width: 130px !important;
   height: 130px !important;
   margin: 20px 0;
+}
+
+.wine-varietal {
+  width: 160px !important;
+  height: 65px !important;
+  margin: 10px 0;
+  padding: 0;
 }
 
 #grape-white,

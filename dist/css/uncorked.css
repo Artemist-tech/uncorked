@@ -1,3 +1,6 @@
+#CHOOSE-ID {
+  display: none; }
+
 body,
 html {
   height: 100%;
@@ -8,7 +11,8 @@ body {
   background-color: #faaca8;
   background-image: -webkit-linear-gradient(103deg, #faaca8 0%, #ddd6f3 69%, #faf9ec 100%);
   background-image: -o-linear-gradient(103deg, #faaca8 0%, #ddd6f3 69%, #faf9ec 100%);
-  background-image: linear-gradient(-13deg, #faaca8 0%, #ddd6f3 69%, #faf9ec 100%); }
+  background-image: linear-gradient(-13deg, #faaca8 0%, #ddd6f3 69%, #faf9ec 100%);
+  background-attachment: fixed; }
 
 .btn-grad {
   background-image: -webkit-gradient(linear, left top, right top, from(#e52d27), color-stop(51%, #b31217), to(#e52d27));
@@ -23,6 +27,12 @@ body {
   width: 130px !important;
   height: 130px !important;
   margin: 20px 0; }
+
+.wine-varietal {
+  width: 160px !important;
+  height: 65px !important;
+  margin: 10px 0;
+  padding: 0; }
 
 #grape-white,
 #grape-champagne {
