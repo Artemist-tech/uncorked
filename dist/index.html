@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Uncorked</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon/favicon.ico" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
     <!-- Bootstrap core CSS -->
@@ -18,13 +20,60 @@
 
   <body>
     <!-- HEADER - Choose wine -->
-    <section id="header">
+    <section id="choose-color">
       <div class="container mt-5">
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto">
             <div id="main" class="card">
               <div class="card-body">
-                <h2 class="card-title ">Uncorked - A wine tasting app</h2>
+                <h2 class="card-title text-center">Uncorked - A wine tasting app</h2>
+                <hr />
+                <div class="container my-5">
+                  <h3 class="card-title text-center">Choose your grape colour</h3>
+                  <div class="row">
+                    <div class="col text-center">
+                      <button id="grape-white" class="btn btn-primary wine-button yellow lighten-4">
+                        White
+                      </button>
+                    </div>
+                    <div class="col text-center">
+                      <button id="grape-red" class="btn btn-primary wine-button red darken-4 p-0">
+                        Red
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-center">
+                      <button
+                        id="grape-champagne"
+                        class="btn btn-primary wine-button amber lighten-3 p-0"
+                      >
+                        Champagne
+                      </button>
+                    </div>
+                    <div class="col text-center">
+                      <button
+                        id="grape-rose"
+                        class="btn btn-primary wine-button deep-orange lighten-3 p-0"
+                      >
+                        Rose
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="enter-wine">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto">
+            <div id="main" class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center">Enter wine details</h3>
                 <div class="container">
                   <div class="row">
                     <form class="md-form form-lg" style="width: 100%;" id="wine-name">
@@ -35,8 +84,13 @@
                         class="form-control form-control-lg"
                         style="width: 90%;"
                       />
-                      <label for="wine-choice">Enter a wine</label>
+                      <label for="wine-choice">Wine name</label>
                       <input type="submit" value="Save" class="btn btn-unique m-0 mt-3" />
+                      <input
+                        type="moreDetails"
+                        value="Add more details"
+                        class="btn btn-unique m-0 mt-3 ml-3"
+                      />
                     </form>
                   </div>
                 </div>
