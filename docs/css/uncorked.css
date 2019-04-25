@@ -32,12 +32,14 @@ body {
   margin: 20px 0; }
 
 .white-wine-varietal,
-.red-wine-varietal {
+.red-wine-varietal,
+.sparkling-wine-varietal,
+.rose-wine-varietal {
   width: 160px !important;
   height: 65px !important;
   margin: 10px 0;
   padding: 0; }
 
 #grape-white,
-#grape-champagne {
+#grape-sparkling {
   color: #212121; }
