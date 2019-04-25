@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Uncorked</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon/favicon.ico" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet" />
+    <link href="css/uncorked.min.css" rel="stylesheet" />
+  </head>
+
+  <body class="mb-5">
+    <!-- SECTION - Choose wine colour -->
+    <section id="choose-color">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto">
+            <div id="main" class="card">
+              <div class="card-body">
+                <h2 class="card-title text-center">Uncorked - A wine tasting app</h2>
+                <hr />
+                <div class="container my-5">
+                  <h3 class="card-title text-center">Choose your grape colour</h3>
+                  <div class="row wine-buttons">
+                    <div class="col text-center">
+                      <button id="grape-white" class="btn btn-warning wine-button yellow lighten-4">
+                        White
+                      </button>
+                    </div>
+                    <div class="col text-center">
+                      <button id="grape-red" class="btn btn-danger wine-button red darken-4 p-0">
+                        Red
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col text-center">
+                      <button
+                        id="grape-champagne"
+                        class="btn btn-warning wine-button amber lighten-3 p-0"
+                      >
+                        Champagne
+                      </button>
+                    </div>
+                    <div class="col text-center">
+                      <button
+                        id="grape-rose"
+                        class="btn btn-danger wine-button deep-orange lighten-1 p-0"
+                      >
+                        Rosé
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /SECTION - Choose wine colour -->
+
+    <!-- SECTION - Enter wine details -->
+    <section id="enter-wine">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto">
+            <div id="main" class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center">Enter wine details</h3>
+                <div class="container">
+                  <div class="row">
+                    <form class="md-form form-lg" style="width: 100%;" id="wine-name">
+                      <input
+                        type="text"
+                        name="wine-choice"
+                        id="wine-choice"
+                        class="form-control form-control-lg"
+                        style="width: 90%;"
+                      />
+                      <label for="wine-choice">Wine name</label>
+                      <input type="submit" value="Save" class="btn btn-unique m-0 mt-3" />
+                      <input
+                        type="moreDetails"
+                        value="Show more"
+                        class="btn btn-unique m-0 mt-3 ml-3"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /SECTION - Enter wine details -->
+
+    <!-- SECTION - Choose grape varietal WHITE -->
+    <section id="grape-varietal-white" class="invisible">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto">
+            <div id="main" class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center mb-4">Common White Varietals</h3>
+                <hr />
+                <div class="container mt-4">
+                  <div class="row text-center">
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect">
+                        Pinot Blanc
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect">
+                        Albariño
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect">
+                        Riesling
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect">
+                        Fiano
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect">
+                        Pinot Gris / Grigio
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect">
+                        Chenin Blanc
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect">
+                        Grüner Veltliner
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect">
+                        Vermentino
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect">
+                        Semillon
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect p-0">
+                        Gewürztraminer
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect p-0">
+                        Viognier
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-warning white-wine-varietal waves-effect p-0">
+                        Chardonnay
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /SECTION - Choose grape varietal WHITE-->
+
+    <!-- SECTION - Choose grape varietal RED -->
+    <section id="grape-varietal-red" class="invisible">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto">
+            <div id="main" class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center mb-4">Common Red Varietals</h3>
+                <hr />
+                <div class="container mt-4">
+                  <div class="row text-center">
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Gamay
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Pinot Noir
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Cabernet Franc
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Grenache
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Merlot
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Nebbiolo
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Rhone / GSM Blend
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Sangiovese
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Tempranillo
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Bordeaux blend
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Cabernet Sauvignon
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Malbec
+                      </button>
+                    </div>
+                    <!-- <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Shiraz / Syrah
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-danger red-wine-varietal waves-effect p-0">
+                        Mouvedre / Mataro
+                      </button>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /SECTION - Choose grape varietal RED-->
+
+    <!-- SECTION - Template -->
+    <section id="CHOOSE-ID">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto">
+            <div id="main" class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center">ENTER TITLE</h3>
+                <div class="container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /SECTION - Template -->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
