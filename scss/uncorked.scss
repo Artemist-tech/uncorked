@@ -35,7 +35,9 @@ body {
 }
 
 .white-wine-varietal,
-.red-wine-varietal {
+.red-wine-varietal,
+.sparkling-wine-varietal,
+.rose-wine-varietal {
   width: 160px !important;
   height: 65px !important;
   margin: 10px 0;
@@ -43,6 +45,6 @@ body {
 }
 
 #grape-white,
-#grape-champagne {
+#grape-sparkling {
   color: #212121;
 }

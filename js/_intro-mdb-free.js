@@ -1,19 +1,19 @@
 /*!
  * Material Design for Bootstrap 4
- * Version: MDB FREE: 4.7.5
+ * Version: MDB FREE: 4.5.8
  *
  *
  * Copyright: Material Design for Bootstrap
  * https://mdbootstrap.com/
  *
- * Read the license: https://mdbootstrap.com/general/license/
+ * Read the license: https://mdbootstrap.com/license/
  *
  *
  * Documentation: https://mdbootstrap.com/
  *
- * Getting started: https://mdbootstrap.com/docs/jquery/getting-started/download/
+ * Getting started: https://mdbootstrap.com/getting-started/
  *
- * Tutorials: https://mdbootstrap.com/education/bootstrap/
+ * Tutorials: https://mdbootstrap.com/bootstrap-tutorial/
  *
  * Templates: https://mdbootstrap.com/templates/
  *
@@ -21,7 +21,7 @@
  *
  * Contact: office@mdbootstrap.com
  *
- * Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.jss
+ * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
  *
  */
 

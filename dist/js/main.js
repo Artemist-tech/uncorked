@@ -1,5 +1,6 @@
 const redWines = document.querySelector('#grape-varietal-red');
 const whiteWines = document.querySelector('#grape-varietal-white');
+const sparklingWine = document.querySelector('#grape-varietal-sparkling');
 
 $('.wine-button').on('click', showGrapes);
 
@@ -7,18 +8,30 @@ function showGrapes(e) {
   const grapeChoice = e.target;
   switch (grapeChoice.id) {
     case 'grape-white':
-      console.log('white clicked');
       whiteWines.classList.remove('invisible');
       redWines.classList.add('invisible');
       break;
     case 'grape-red':
-      console.log('white clicked');
       whiteWines.classList.add('invisible');
       redWines.classList.remove('invisible');
       break;
-
     default:
       break;
   }
-  console.log(`${e.target.id}`);
+}
+
+$('.white-wine-varietal').on('click', toggleClicked);
+$('.red-wine-varietal').on('click', toggleClicked);
+$('.sparkling-wine-varietal').on('click', toggleClicked);
+$('.rose-wine-varietal').on('click', toggleClicked);
+
+function toggleClicked(e) {
+  const grapeClicked = e.target;
+  if (grapeClicked.classList.contains('white-wine-varietal')) {
+    grapeClicked.classList.toggle('btn-outline-warning');
+    grapeClicked.classList.toggle('btn-warning');
+  } else if (grapeClicked.classList.contains('red-wine-varietal')) {
+    grapeClicked.classList.toggle('btn-outline-danger');
+    grapeClicked.classList.toggle('btn-danger');
+  }
 }
