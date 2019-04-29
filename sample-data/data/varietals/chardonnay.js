@@ -1,20 +1,5 @@
 const chardonnay = {
   varietal: 'chardonnay',
-  appearance: {
-    clarity: [
-      'clear',
-      'opaque',
-      'cloudy',
-      'dull',
-      'deep',
-      'pale',
-      'brilliant',
-      'bright',
-      'intense',
-      'concentrated'
-    ],
-    colour: ['yellow', 'green-tinted yellow', 'gold', 'honey', 'pale yellow', 'straw']
-  },
   character: {
     fruit: [
       'apple',
