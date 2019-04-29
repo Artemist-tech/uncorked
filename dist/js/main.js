@@ -37,6 +37,8 @@ function showGrapes(e) {
   }
 }
 
+// function toggleVisible(grapeClicked)
+
 $('.white-wine-varietal').on('click', toggleClicked);
 $('.red-wine-varietal').on('click', toggleClicked);
 $('.sparkling-wine-varietal').on('click', toggleClicked);
