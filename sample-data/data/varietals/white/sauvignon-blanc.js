@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 const sauvignonBlanc = {
   varietal: 'Sauvignon Blanc',
   botanical: [
